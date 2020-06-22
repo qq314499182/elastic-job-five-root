@@ -1,0 +1,11 @@
+#--------分布式job相关配置 start---------
+#zookeeper配置
+zookeeper.regCenter.serverList=49.234.28.46:2181
+zookeeper.regCenter.namespace=${spring.application.name}
+
+#mysql数据源
+mysql.datasource.url=jdbc:mysql://49.234.28.46:3306/iids-job?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+mysql.datasource.username=root
+mysql.datasource.password=root
+mysql.datasource.driverClassName=com.mysql.jdbc.Driver
+#--------分布式job相关配置s end--------
